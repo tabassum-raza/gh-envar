@@ -5,7 +5,7 @@ on:
       - master
       - dev
 env:
-  MONGO_DB_NAME = gh-demo
+  MONGO_DB_NAME: gh-demo
 jobs:
   test:
     env:
